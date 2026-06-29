@@ -1,7 +1,5 @@
 # AutoTrainess
 
-## Project Overview
-
 [中文说明](README_zh.md)
 
 ## Quick Start
