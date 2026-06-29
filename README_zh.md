@@ -2,7 +2,13 @@
 
 这个分支只保留 AutoTrainess 中可复用的 agent 指令和 skills。
 
-完整 benchmark runner 在 `full-code` 分支。
+## 完整代码分支
+
+如果你想运行完整 benchmark pipeline，而不是只复用这里的指令和 skills，请使用 `full-code` 分支。该分支包含完整 runner 脚本、agent wrapper、评测任务、资源下载脚本，以及完整 quick-start 文档。
+
+```bash
+git checkout full-code
+```
 
 ## 文件
 

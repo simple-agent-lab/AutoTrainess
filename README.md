@@ -4,7 +4,13 @@
 
 This branch contains the reusable agent instructions and skills from AutoTrainess.
 
-For the full benchmark runner, use the `full-code` branch.
+## Full Code Branch
+
+Use the `full-code` branch when you want to run the full benchmark pipeline instead of only reusing the instructions and skills. That branch contains the complete runner scripts, agent wrappers, evaluation tasks, resource download scripts, and full quick-start documentation.
+
+```bash
+git checkout full-code
+```
 
 ## Files
 
