@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+.env
+local_env.sh
+results/
+post_hf/
+resources/post_hf/
+*.safetensors
+pytorch_model*.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+*.ckpt
