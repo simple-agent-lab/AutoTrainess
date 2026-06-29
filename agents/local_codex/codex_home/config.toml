@@ -1,0 +1,8 @@
+model = "gpt-5.4-2026-03-05"
+approval_policy = "on-request"
+model_reasoning_effort = "medium"
+model_max_output_tokens = 64000
+
+[shell_environment_policy]
+inherit = "all"
+ignore_default_excludes = true

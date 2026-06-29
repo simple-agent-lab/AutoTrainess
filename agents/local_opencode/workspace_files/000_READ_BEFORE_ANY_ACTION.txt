@@ -1,0 +1,23 @@
+Read this before any broad scan, large log read, or other high-cost operation.
+
+High-risk operations include:
+- Recursive scans over large or unfamiliar directories.
+- Broad discovery commands such as `glob("**/*")`, `find`, `ls -R`, `tree`, `du -ah`, or `rg --files` on directories that may contain many files.
+- Reading very large logs, JSON/JSONL outputs, caches, checkpoints, or dataset folders in full.
+- Wide grep/search operations over generated outputs or shared resource trees.
+
+Rules:
+- First identify the exact target you need.
+- Start with the narrowest possible path, pattern, or file.
+- Inspect one level at a time before going deeper.
+- Prefer summaries, top-level listings, metadata, or sampled outputs before opening full files.
+- Do not run broad recursive commands on shared caches or large resource directories unless they are truly necessary.
+- If a directory or file may be huge, assume it is risky until you verify otherwise.
+
+Examples of safer behavior:
+- Read a specific file instead of scanning a whole tree.
+- List the top level of a directory before exploring subdirectories.
+- Use `head`, `tail`, or a targeted pattern instead of reading an entire large output.
+- Use a precise subdirectory once you know what resource you want.
+
+Before starting, read `AGENTS.md` for task-specific instructions.

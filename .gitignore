@@ -1,0 +1,17 @@
+local_env.sh
+AGENTS.md
+post_hf/
+resources/post_hf/
+results/
+__pycache__/
+*.pyc
+*.log
+.env
+*.safetensors
+pytorch_model*.bin
+optimizer.pt
+scheduler.pt
+rng_state.pth
+*.ckpt
+agents/local_codex/codex
+agents/local_opencode/opencode
