@@ -1,5 +1,7 @@
 # AutoTrainess
 
+[中文说明](README_zh.md)
+
 This branch contains the reusable agent instructions and skills from AutoTrainess.
 
 For the full benchmark runner, use the `full-code` branch.
