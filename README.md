@@ -19,7 +19,7 @@
 
 ## Overview
 
-AutoTrainess is an LM-agent framework for autonomous LLM post-training. Instead of leaving an agent in a raw CLI environment with an underspecified action space, AutoTrainess exposes post-training as a set of structured, reusable Agent-Computer Interfaces through **AutoTrainHub**.
+AutoTrainess is a LM-agent framework for autonomous LLM post-training. Instead of leaving an agent in a raw CLI environment with an underspecified action space, AutoTrainess exposes post-training as a set of structured, reusable Agent-Computer Interfaces through **AutoTrainHub**.
 
 The core idea is simple: give the agent the same operational scaffolding that experienced training engineers rely on. AutoTrainHub turns post-training into a closed loop:
 
@@ -27,7 +27,7 @@ The core idea is simple: give the agent the same operational scaffolding that ex
 iteration_plan -> data -> train -> eval -> log
 ```
 
-This branch contains the reusable instructions and skills from AutoTrainess. The complete benchmark runner and full pipeline live on the `full-code` branch.
+This branch contains the  instructions and interface from AutoTrainess. The complete benchmark runner and full pipeline live on the `full-code` branch.
 
 ## Results
 
@@ -43,7 +43,6 @@ On PostTrainBench, AutoTrainess consistently improves over CLI-only agents under
 | GPT-5.4 + OpenCode | 19.71 | **23.35** | +3.64 |
 | DeepSeek-V4-Flash + OpenCode | 12.13 | **19.58** | +7.45 |
 
-The ablations show why the interface matters. On the Qwen3-4B subset with GPT-5.4 Codex, the full AutoTrainess setup scores 32.6, while removing data processing drops to 29.1, removing training drops to 20.2, removing evaluation drops to 24.0, and removing logging and planning drops to 24.1.
 
 ## How It Works
 
