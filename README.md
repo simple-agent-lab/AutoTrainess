@@ -1,7 +1,7 @@
-# AutoTrainess
+<h1 align="center">AutoTrainess</h1>
 
 <p align="center">
-  <img src="figs/overview.png" alt="AutoTrainess workflow overview" width="100%">
+  <img src="figs/overview.png" alt="AutoTrainess workflow overview" width="80%">
 </p>
 
 <p align="center">
