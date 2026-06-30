@@ -32,7 +32,7 @@ This branch contains the reusable instructions and skills from AutoTrainess. The
 ## Results
 
 <p align="center">
-  <img src="figs/autotrainess_vs_cli_avg.png" alt="AutoTrainess versus CLI-only on PostTrainBench" width="82%">
+  <img src="figs/autotrainess_vs_cli_avg.png" alt="AutoTrainess versus CLI-only on PostTrainBench" width="70%">
 </p>
 
 On PostTrainBench, AutoTrainess consistently improves over CLI-only agents under the same 10-hour H20 GPU budget. The paper evaluates each agent across four base models, Qwen3-1.7B, Qwen3-4B, SmolLM3-3B, and Gemma-3-4B, and seven benchmarks covering math, code, function calling, knowledge, health, and general instruction following.
