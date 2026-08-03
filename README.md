@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://simpleagentlab.com/">Simple Agent Lab</a> ·
   <a href="docs/autotrainess_paper.pdf">Paper</a> ·
   <a href="README_zh.md">中文说明</a> ·
   <a href="#results">Results</a> ·
